@@ -16,6 +16,6 @@ COPY 북한용어사전.csv .
 ENV PYTHONUNBUFFERED=1
 
 # 6. 표준 입출력(STDIO)을 통한 MCP 통신 실행
-ENTRYPOINT ["python", "mcp.py"]
+ENTRYPOINT ["python", "mc.py"]
 #ENTRYPOINT ["fastmcp", "run", "law_matcher_mcp.py"]
 #ENTRYPOINT ["sh", "-c", "fastmcp run law_matcher_mcp.py --transport sse --host 0.0.0.0 --port $PORT"]
