@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 4. 소스 코드 복사 (데이터셋 CSV 파일도 프로젝트 내 포함되도록 처리 가능)
-COPY mcp.py .
+COPY mc.py .
 COPY 북한용어사전.csv .
 
 # 5. 실행 환경 변수 및 입출력 버퍼 설정
