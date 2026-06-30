@@ -1,0 +1,5 @@
+fastmcp
+pandas
+scikit-learn
+uvicorn
+starlette
